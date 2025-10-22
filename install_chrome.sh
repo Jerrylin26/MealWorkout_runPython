@@ -16,6 +16,9 @@ else
   echo "...Using Chrome from cache"
 fi
 
+export CHROME_BIN=/opt/render/project/.render/chrome/opt/google/chrome/google-chrome
+export PATH="$CHROME_BIN:$PATH"
+
 # be sure to add Chromes location to the PATH as part of your Start Command
 # export PATH="${PATH}:/opt/render/project/.render/chrome/opt/google/chrome"
 

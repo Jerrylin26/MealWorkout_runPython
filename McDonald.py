@@ -22,8 +22,9 @@ def get_chrome_path():
     if platform.system() == "Windows":
         return r"C:\Program Files\Google\Chrome\Application\chrome.exe"
     else:
-        # 預設 Render (Linux) 環境
-        return os.environ.get("CHROME_BIN", "/usr/bin/google-chrome")
+        # Render Linux 路徑
+        return "/opt/render/project/.render/chrome/opt/google/chrome/google-chrome"
+
 
 class McDonald:
 
