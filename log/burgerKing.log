@@ -1,0 +1,924 @@
+皇家華堡
+單點
+$144
+套餐
+$189
+辣味皇家華堡
+單點
+$144
+套餐
+$189
+皇家雙層華堡
+單點
+$204
+套餐
+$249
+辣味皇家雙層華堡
+單點
+$204
+套餐
+$249
+辣味皇家三層華堡
+單點
+$264
+套餐
+$309
+皇家三層華堡
+單點
+$264
+套餐
+$309
+-------
+皇家華堡
+單點
+$144
+套餐
+$189
+-------
+
+-------
+
+-------
+皇家華堡
+-------
+單點
+$144
+套餐
+$189
+-------
+單點
+-------
+$144
+-------
+套餐
+-------
+$189
+-------
+辣味皇家華堡
+單點
+$144
+套餐
+$189
+-------
+
+-------
+
+-------
+辣味皇家華堡
+-------
+單點
+$144
+套餐
+$189
+-------
+單點
+-------
+$144
+-------
+套餐
+-------
+$189
+-------
+皇家雙層華堡
+單點
+$204
+套餐
+$249
+-------
+
+-------
+
+-------
+皇家雙層華堡
+-------
+單點
+$204
+套餐
+$249
+-------
+單點
+-------
+$204
+-------
+套餐
+-------
+$249
+-------
+辣味皇家雙層華堡
+單點
+$204
+套餐
+$249
+-------
+
+-------
+
+-------
+辣味皇家雙層華堡
+-------
+單點
+$204
+套餐
+$249
+-------
+單點
+-------
+$204
+-------
+套餐
+-------
+$249
+-------
+辣味皇家三層華堡
+單點
+$264
+套餐
+$309
+-------
+
+-------
+
+-------
+辣味皇家三層華堡
+-------
+單點
+$264
+套餐
+$309
+-------
+單點
+-------
+$264
+-------
+套餐
+-------
+$309
+-------
+皇家三層華堡
+單點
+$264
+套餐
+$309
+-------
+
+-------
+
+-------
+皇家三層華堡
+-------
+單點
+$264
+套餐
+$309
+-------
+單點
+-------
+$264
+-------
+套餐
+-------
+$309
+-------
+Traceback (most recent call last):
+  File "D:\code\聯成_宏碁專案\速食熱量\burgerking.py", line 104, in <module>
+    b.crawl_img()
+  File "D:\code\聯成_宏碁專案\速食熱量\burgerking.py", line 92, in crawl_img
+    imgs = con.find_elements(By.TAG_NAME,'img')
+           ^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'find_elements'
+7
+7
+55
+28
+10
+37
+28
+13
+1
+7
+30
+15
+5
+20
+15
+3
+0
+7
+55
+28
+10
+37
+28
+13
+1
+7
+Traceback (most recent call last):
+  File "D:\code\聯成_宏碁專案\速食熱量\burgerking.py", line 105, in <module>
+    b.crawl_img()
+  File "D:\code\聯成_宏碁專案\速食熱量\burgerking.py", line 87, in crawl_img
+    con = content.find_elements(By.CSS_SELECTOR,'div.grid.grid-cols-2.md:grid-cols-3.md:px-32.px-3.text-primary.gap-5')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\聯成_宏碁專案\速食熱量\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 631, in find_elements
+    return self._execute(Command.FIND_CHILD_ELEMENTS, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\聯成_宏碁專案\速食熱量\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\聯成_宏碁專案\速食熱量\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\code\聯成_宏碁專案\速食熱量\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=140.0.7339.185); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	GetHandleVerifier [0x0xf8c333+65459]
+	GetHandleVerifier [0x0xf8c374+65524]
+	(No symbol) [0x0xdad973]
+	(No symbol) [0x0xdb4330]
+	(No symbol) [0x0xdb6734]
+	(No symbol) [0x0xdb67c8]
+	(No symbol) [0x0xdf6f74]
+	(No symbol) [0x0xdf7a8b]
+	(No symbol) [0x0xded0b1]
+	(No symbol) [0x0xe19e44]
+	(No symbol) [0x0xdecbf4]
+	(No symbol) [0x0xe19fb4]
+	(No symbol) [0x0xe3b606]
+	(No symbol) [0x0xe19bf6]
+	(No symbol) [0x0xdeb38e]
+	(No symbol) [0x0xdec274]
+	GetHandleVerifier [0x0x120eda3+2697763]
+	GetHandleVerifier [0x0x1209ec7+2677575]
+	GetHandleVerifier [0x0xfb4194+228884]
+	GetHandleVerifier [0x0xfa49f8+165496]
+	GetHandleVerifier [0x0xfab18d+192013]
+	GetHandleVerifier [0x0xf947d8+99416]
+	GetHandleVerifier [0x0xf94972+99826]
+	GetHandleVerifier [0x0xf7ebea+10346]
+	BaseThreadInitThunk [0x0x76a15d49+25]
+	RtlInitializeExceptionChain [0x0x7795d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7795d661+561]
+
+7
+1
+1
+1
+1
+1
+1
+0
+7
+54
+27
+9
+36
+27
+12
+Traceback (most recent call last):
+  File "D:\code\聯成_宏碁專案\速食熱量\burgerking.py", line 106, in <module>
+    b.crawl_img()
+  File "D:\code\聯成_宏碁專案\速食熱量\burgerking.py", line 87, in crawl_img
+    con = content.find_element(By.CSS_SELECTOR,'div.grid.grid-cols-2')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\聯成_宏碁專案\速食熱量\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 602, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\聯成_宏碁專案\速食熱量\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\聯成_宏碁專案\速食熱量\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\code\聯成_宏碁專案\速食熱量\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.grid.grid-cols-2"}
+  (Session info: chrome=140.0.7339.185); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x40c333+65459]
+	GetHandleVerifier [0x0x40c374+65524]
+	(No symbol) [0x0x22d973]
+	(No symbol) [0x0x2776e7]
+	(No symbol) [0x0x277a8b]
+	(No symbol) [0x0x26ccf1]
+	(No symbol) [0x0x299e44]
+	(No symbol) [0x0x26cbf4]
+	(No symbol) [0x0x299fb4]
+	(No symbol) [0x0x2bb606]
+	(No symbol) [0x0x299bf6]
+	(No symbol) [0x0x26b38e]
+	(No symbol) [0x0x26c274]
+	GetHandleVerifier [0x0x68eda3+2697763]
+	GetHandleVerifier [0x0x689ec7+2677575]
+	GetHandleVerifier [0x0x434194+228884]
+	GetHandleVerifier [0x0x4249f8+165496]
+	GetHandleVerifier [0x0x42b18d+192013]
+	GetHandleVerifier [0x0x4147d8+99416]
+	GetHandleVerifier [0x0x414972+99826]
+	GetHandleVerifier [0x0x3febea+10346]
+	BaseThreadInitThunk [0x0x76a15d49+25]
+	RtlInitializeExceptionChain [0x0x7795d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7795d661+561]
+
+7
+54
+27
+9
+36
+27
+12
+Traceback (most recent call last):
+  File "D:\code\聯成_宏碁專案\速食熱量\burgerking.py", line 106, in <module>
+    b.crawl_img()
+  File "D:\code\聯成_宏碁專案\速食熱量\burgerking.py", line 87, in crawl_img
+    con = content.find_element(By.CSS_SELECTOR,'div.grid.grid-cols-2')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\聯成_宏碁專案\速食熱量\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 602, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\聯成_宏碁專案\速食熱量\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\聯成_宏碁專案\速食熱量\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\code\聯成_宏碁專案\速食熱量\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.grid.grid-cols-2"}
+  (Session info: chrome=140.0.7339.185); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x58c333+65459]
+	GetHandleVerifier [0x0x58c374+65524]
+	(No symbol) [0x0x3ad973]
+	(No symbol) [0x0x3f76e7]
+	(No symbol) [0x0x3f7a8b]
+	(No symbol) [0x0x3eccf1]
+	(No symbol) [0x0x419e44]
+	(No symbol) [0x0x3ecbf4]
+	(No symbol) [0x0x419fb4]
+	(No symbol) [0x0x43b606]
+	(No symbol) [0x0x419bf6]
+	(No symbol) [0x0x3eb38e]
+	(No symbol) [0x0x3ec274]
+	GetHandleVerifier [0x0x80eda3+2697763]
+	GetHandleVerifier [0x0x809ec7+2677575]
+	GetHandleVerifier [0x0x5b4194+228884]
+	GetHandleVerifier [0x0x5a49f8+165496]
+	GetHandleVerifier [0x0x5ab18d+192013]
+	GetHandleVerifier [0x0x5947d8+99416]
+	GetHandleVerifier [0x0x594972+99826]
+	GetHandleVerifier [0x0x57ebea+10346]
+	BaseThreadInitThunk [0x0x76a15d49+25]
+	RtlInitializeExceptionChain [0x0x7795d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7795d661+561]
+
+7
+6
+3
+1
+4
+3
+3
+Traceback (most recent call last):
+  File "D:\code\聯成_宏碁專案\速食熱量\burgerking.py", line 106, in <module>
+    b.crawl_img()
+  File "D:\code\聯成_宏碁專案\速食熱量\burgerking.py", line 87, in crawl_img
+    con = content.find_element(By.CSS_SELECTOR,'div.grid.grid-cols-2')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\聯成_宏碁專案\速食熱量\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 602, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\聯成_宏碁專案\速食熱量\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\聯成_宏碁專案\速食熱量\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "D:\code\聯成_宏碁專案\速食熱量\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.grid.grid-cols-2"}
+  (Session info: chrome=140.0.7339.185); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x10ec333+65459]
+	GetHandleVerifier [0x0x10ec374+65524]
+	(No symbol) [0x0xf0d973]
+	(No symbol) [0x0xf576e7]
+	(No symbol) [0x0xf57a8b]
+	(No symbol) [0x0xf4ccf1]
+	(No symbol) [0x0xf79e44]
+	(No symbol) [0x0xf4cbf4]
+	(No symbol) [0x0xf79fb4]
+	(No symbol) [0x0xf9b606]
+	(No symbol) [0x0xf79bf6]
+	(No symbol) [0x0xf4b38e]
+	(No symbol) [0x0xf4c274]
+	GetHandleVerifier [0x0x136eda3+2697763]
+	GetHandleVerifier [0x0x1369ec7+2677575]
+	GetHandleVerifier [0x0x1114194+228884]
+	GetHandleVerifier [0x0x11049f8+165496]
+	GetHandleVerifier [0x0x110b18d+192013]
+	GetHandleVerifier [0x0x10f47d8+99416]
+	GetHandleVerifier [0x0x10f4972+99826]
+	GetHandleVerifier [0x0x10debea+10346]
+	BaseThreadInitThunk [0x0x76a15d49+25]
+	RtlInitializeExceptionChain [0x0x7795d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7795d661+561]
+
+7
+https://burgerkingimage.azureedge.net/category/C30202_new.png
+https://burgerkingimage.azureedge.net/category/100007N.png
+https://burgerkingimage.azureedge.net/category/C30204_new.png
+https://burgerkingimage.azureedge.net/category/30205.png
+https://burgerkingimage.azureedge.net/category/30207N.png
+https://burgerkingimage.azureedge.net/category/C30206_new.png
+https://burgerkingimage.azureedge.net/category/100098_new.png
+https://burgerkingimage.azureedge.net/category/100002_new.png
+https://burgerkingimage.azureedge.net/category/100001_new.png
+https://burgerkingimage.azureedge.net/category/C30302_new.png
+https://burgerkingimage.azureedge.net/category/100221.png
+https://burgerkingimage.azureedge.net/category/100010NEW.png
+https://burgerkingimage.azureedge.net/category/100010_new.png
+https://burgerkingimage.azureedge.net/category/30502N.png
+https://burgerkingimage.azureedge.net/category/100068.png
+https://burgerkingimage.azureedge.net/category/100183.png
+https://burgerkingimage.azureedge.net/category/100093.png
+https://burgerkingimage.azureedge.net/product/0011115.png
+https://burgerkingimage.azureedge.net/product/0011114.png
+https://burgerkingimage.azureedge.net/product/0011116.png
+7
+6
+https://burgerkingimage.azureedge.net/category/C30202_new.png
+https://burgerkingimage.azureedge.net/category/100007N.png
+https://burgerkingimage.azureedge.net/category/C30204_new.png
+https://burgerkingimage.azureedge.net/category/30205.png
+https://burgerkingimage.azureedge.net/category/30207N.png
+https://burgerkingimage.azureedge.net/category/C30206_new.png
+
+3
+https://burgerkingimage.azureedge.net/category/100098_new.png
+https://burgerkingimage.azureedge.net/category/100002_new.png
+https://burgerkingimage.azureedge.net/category/100001_new.png
+
+1
+https://burgerkingimage.azureedge.net/category/C30302_new.png
+
+4
+https://burgerkingimage.azureedge.net/category/100221.png
+https://burgerkingimage.azureedge.net/category/100010NEW.png
+https://burgerkingimage.azureedge.net/category/100010_new.png
+https://burgerkingimage.azureedge.net/category/30502N.png
+
+3
+https://burgerkingimage.azureedge.net/category/100068.png
+https://burgerkingimage.azureedge.net/category/100183.png
+https://burgerkingimage.azureedge.net/category/100093.png
+
+3
+https://burgerkingimage.azureedge.net/product/0011115.png
+https://burgerkingimage.azureedge.net/product/0011114.png
+https://burgerkingimage.azureedge.net/product/0011116.png
+
+7
+Traceback (most recent call last):
+  File "D:\code\聯成_宏碁專案\速食熱量\burgerking.py", line 112, in <module>
+    b.crawl_img()
+  File "D:\code\聯成_宏碁專案\速食熱量\burgerking.py", line 90, in crawl_img
+    print(len(title))
+              ^^^^^
+UnboundLocalError: cannot access local variable 'title' where it is not associated with a value
+7
+6
+皇家華堡
+https://burgerkingimage.azureedge.net/category/C30202_new.png
+辣味皇家華堡
+https://burgerkingimage.azureedge.net/category/100007N.png
+皇家雙層華堡
+https://burgerkingimage.azureedge.net/category/C30204_new.png
+辣味皇家雙層華堡
+https://burgerkingimage.azureedge.net/category/30205.png
+辣味皇家三層華堡
+https://burgerkingimage.azureedge.net/category/30207N.png
+皇家三層華堡
+https://burgerkingimage.azureedge.net/category/C30206_new.png
+
+3
+花生安格斯牛肉堡
+https://burgerkingimage.azureedge.net/category/100098_new.png
+安格斯厚切牛肉堡
+https://burgerkingimage.azureedge.net/category/100002_new.png
+勁濃安格斯牛肉堡
+https://burgerkingimage.azureedge.net/category/100001_new.png
+
+1
+重磅培根雙層牛肉堡
+https://burgerkingimage.azureedge.net/category/C30302_new.png
+
+4
+雙層小華堡（原味）
+https://burgerkingimage.azureedge.net/category/100221.png
+單層小華堡（辣味）
+https://burgerkingimage.azureedge.net/category/100010NEW.png
+單層小華堡（原味）
+https://burgerkingimage.azureedge.net/category/100010_new.png
+雙層小華堡（辣味）
+https://burgerkingimage.azureedge.net/category/30502N.png
+
+3
+BBQ培根牛肉堡
+https://burgerkingimage.azureedge.net/category/100068.png
+雙起士培根牛肉堡
+https://burgerkingimage.azureedge.net/category/100183.png
+花生培根牛肉堡
+https://burgerkingimage.azureedge.net/category/100093.png
+
+3
+BBQ培根牛肉堡+小薯+小飲
+https://burgerkingimage.azureedge.net/product/0011115.png
+花生培根牛肉堡+小薯+小飲
+https://burgerkingimage.azureedge.net/product/0011114.png
+雙起士培根牛肉堡+小薯+小飲
+https://burgerkingimage.azureedge.net/product/0011116.png
+
+7
+6
+皇家華堡
+https://burgerkingimage.azureedge.net/category/C30202_new.png
+辣味皇家華堡
+https://burgerkingimage.azureedge.net/category/100007N.png
+皇家雙層華堡
+https://burgerkingimage.azureedge.net/category/C30204_new.png
+辣味皇家雙層華堡
+https://burgerkingimage.azureedge.net/category/30205.png
+辣味皇家三層華堡
+https://burgerkingimage.azureedge.net/category/30207N.png
+皇家三層華堡
+https://burgerkingimage.azureedge.net/category/C30206_new.png
+
+3
+花生安格斯牛肉堡
+https://burgerkingimage.azureedge.net/category/100098_new.png
+安格斯厚切牛肉堡
+https://burgerkingimage.azureedge.net/category/100002_new.png
+勁濃安格斯牛肉堡
+https://burgerkingimage.azureedge.net/category/100001_new.png
+
+1
+重磅培根雙層牛肉堡
+https://burgerkingimage.azureedge.net/category/C30302_new.png
+
+4
+雙層小華堡（原味）
+https://burgerkingimage.azureedge.net/category/100221.png
+單層小華堡（辣味）
+https://burgerkingimage.azureedge.net/category/100010NEW.png
+單層小華堡（原味）
+https://burgerkingimage.azureedge.net/category/100010_new.png
+雙層小華堡（辣味）
+https://burgerkingimage.azureedge.net/category/30502N.png
+
+3
+BBQ培根牛肉堡
+https://burgerkingimage.azureedge.net/category/100068.png
+雙起士培根牛肉堡
+https://burgerkingimage.azureedge.net/category/100183.png
+花生培根牛肉堡
+https://burgerkingimage.azureedge.net/category/100093.png
+
+3
+BBQ培根牛肉堡+小薯+小飲
+https://burgerkingimage.azureedge.net/product/0011115.png
+花生培根牛肉堡+小薯+小飲
+https://burgerkingimage.azureedge.net/product/0011114.png
+雙起士培根牛肉堡+小薯+小飲
+https://burgerkingimage.azureedge.net/product/0011116.png
+
+4
+13
+起士醬包
+https://burgerkingimage.azureedge.net/product/300199.png
+辣薯球（中）
+https://burgerkingimage.azureedge.net/product/300033.png
+洋蔥圈（大）
+https://burgerkingimage.azureedge.net/product/300006.png
+洋蔥圈（中）
+https://burgerkingimage.azureedge.net/product/300005.png
+大薯條
+https://burgerkingimage.azureedge.net/product/300003.png
+中薯條
+https://burgerkingimage.azureedge.net/product/300002.png
+超值奔Fun組
+https://burgerkingimage.azureedge.net/product/14139.jpg
+(官網獨家)國王點心全餐
+https://burgerkingimage.azureedge.net/product/15180.jpg
+6塊雞塊
+https://burgerkingimage.azureedge.net/product/300011.png
+勁濃起士薯
+https://burgerkingimage.azureedge.net/product/300018.png
+蘋果派
+https://burgerkingimage.azureedge.net/product/300023.png
+雞薯條8入
+https://burgerkingimage.azureedge.net/product/300203.png
+黃金QQ球3入
+https://burgerkingimage.azureedge.net/product/300202.png
+
+17
+漢堡王瓶裝水
+https://burgerkingimage.azureedge.net/product/240050.png
+拿鐵（熱）
+https://burgerkingimage.azureedge.net/product/240013_new.png
+卡布奇諾（熱）
+https://burgerkingimage.azureedge.net/product/240012_new.png
+美式研磨（小）
+https://burgerkingimage.azureedge.net/product/210008_new.png
+美式研磨（中）
+https://burgerkingimage.azureedge.net/product/210008_new.png
+紅茶（熱）
+https://burgerkingimage.azureedge.net/product/240004_new.png
+玉米濃湯（小）
+https://burgerkingimage.azureedge.net/product/300187_new.png
+玉米濃湯（大）
+https://burgerkingimage.azureedge.net/product/300187_new.png
+拿鐵（冰）
+https://burgerkingimage.azureedge.net/product/500x500_%E5%86%B0%E6%8B%BF%E9%90%B5.png
+冰微糖紅茶（中）
+https://burgerkingimage.azureedge.net/product/220017.png
+柳橙綜合果汁（大）
+https://burgerkingimage.azureedge.net/product/230009.png
+綠茶（中）
+https://burgerkingimage.azureedge.net/product/220014.png
+橘子汽水（中）
+https://burgerkingimage.azureedge.net/product/220007.png
+激浪（中）
+https://burgerkingimage.azureedge.net/product/220004.png
+七喜（中）
+https://burgerkingimage.azureedge.net/product/220003.png
+可樂（中）
+https://burgerkingimage.azureedge.net/product/220002%20(2).png
+無糖可樂(中)
+https://burgerkingimage.azureedge.net/product/220002%20(2).png
+
+1
+塑膠袋
+https://burgerkingimage.azureedge.net/product/6001.png
+
+6
+2
+原味國王大雞堡
+https://burgerkingimage.azureedge.net/category/100209_new.png
+辣味國王大雞堡
+https://burgerkingimage.azureedge.net/category/100210_new.png
+
+5
+經典脆雞堡
+https://burgerkingimage.azureedge.net/category/100021.png
+花生培根脆雞堡
+https://burgerkingimage.azureedge.net/category/C40511.png
+美式花生雙層脆雞堡
+https://burgerkingimage.azureedge.net/category/C40204_new.png
+火烤雞腿培根堡
+https://burgerkingimage.azureedge.net/category/C40202_new.png
+勁濃培根烤腿堡
+https://burgerkingimage.azureedge.net/category/C40201_new.png
+
+4
+雙層田園華鱈魚堡
+https://burgerkingimage.azureedge.net/category/C40401.png
+Q彈海老牛肉堡
+https://burgerkingimage.azureedge.net/category/C40303.png
+華鱈魚堡
+https://burgerkingimage.azureedge.net/category/100016.png
+Q彈海老堡
+https://burgerkingimage.azureedge.net/category/C40301_new.png
+
+1
+無麵包雙層脆雞堡
+https://burgerkingimage.azureedge.net/category/100198_new.png
+
+2
+經典脆雞堡+小薯+小飲
+https://burgerkingimage.azureedge.net/product/0011112.png
+花生培根脆雞堡+小薯+小飲
+https://burgerkingimage.azureedge.net/product/0011113.png
+
+7
+6
+皇家華堡
+https://burgerkingimage.azureedge.net/category/C30202_new.png
+辣味皇家華堡
+https://burgerkingimage.azureedge.net/category/100007N.png
+皇家雙層華堡
+https://burgerkingimage.azureedge.net/category/C30204_new.png
+辣味皇家雙層華堡
+https://burgerkingimage.azureedge.net/category/30205.png
+辣味皇家三層華堡
+https://burgerkingimage.azureedge.net/category/30207N.png
+皇家三層華堡
+https://burgerkingimage.azureedge.net/category/C30206_new.png
+
+3
+花生安格斯牛肉堡
+https://burgerkingimage.azureedge.net/category/100098_new.png
+安格斯厚切牛肉堡
+https://burgerkingimage.azureedge.net/category/100002_new.png
+勁濃安格斯牛肉堡
+https://burgerkingimage.azureedge.net/category/100001_new.png
+
+1
+重磅培根雙層牛肉堡
+https://burgerkingimage.azureedge.net/category/C30302_new.png
+
+4
+雙層小華堡（原味）
+https://burgerkingimage.azureedge.net/category/100221.png
+單層小華堡（辣味）
+https://burgerkingimage.azureedge.net/category/100010NEW.png
+單層小華堡（原味）
+https://burgerkingimage.azureedge.net/category/100010_new.png
+雙層小華堡（辣味）
+https://burgerkingimage.azureedge.net/category/30502N.png
+
+3
+BBQ培根牛肉堡
+https://burgerkingimage.azureedge.net/category/100068.png
+雙起士培根牛肉堡
+https://burgerkingimage.azureedge.net/category/100183.png
+花生培根牛肉堡
+https://burgerkingimage.azureedge.net/category/100093.png
+
+3
+BBQ培根牛肉堡+小薯+小飲
+https://burgerkingimage.azureedge.net/product/0011115.png
+花生培根牛肉堡+小薯+小飲
+https://burgerkingimage.azureedge.net/product/0011114.png
+雙起士培根牛肉堡+小薯+小飲
+https://burgerkingimage.azureedge.net/product/0011116.png
+
+4
+13
+起士醬包
+https://burgerkingimage.azureedge.net/product/300199.png
+辣薯球（中）
+https://burgerkingimage.azureedge.net/product/300033.png
+洋蔥圈（大）
+https://burgerkingimage.azureedge.net/product/300006.png
+洋蔥圈（中）
+https://burgerkingimage.azureedge.net/product/300005.png
+大薯條
+https://burgerkingimage.azureedge.net/product/300003.png
+中薯條
+https://burgerkingimage.azureedge.net/product/300002.png
+超值奔Fun組
+https://burgerkingimage.azureedge.net/product/14139.jpg
+(官網獨家)國王點心全餐
+https://burgerkingimage.azureedge.net/product/15180.jpg
+6塊雞塊
+https://burgerkingimage.azureedge.net/product/300011.png
+勁濃起士薯
+https://burgerkingimage.azureedge.net/product/300018.png
+蘋果派
+https://burgerkingimage.azureedge.net/product/300023.png
+雞薯條8入
+https://burgerkingimage.azureedge.net/product/300203.png
+黃金QQ球3入
+https://burgerkingimage.azureedge.net/product/300202.png
+
+17
+漢堡王瓶裝水
+https://burgerkingimage.azureedge.net/product/240050.png
+拿鐵（熱）
+https://burgerkingimage.azureedge.net/product/240013_new.png
+卡布奇諾（熱）
+https://burgerkingimage.azureedge.net/product/240012_new.png
+美式研磨（小）
+https://burgerkingimage.azureedge.net/product/210008_new.png
+美式研磨（中）
+https://burgerkingimage.azureedge.net/product/210008_new.png
+紅茶（熱）
+https://burgerkingimage.azureedge.net/product/240004_new.png
+玉米濃湯（小）
+https://burgerkingimage.azureedge.net/product/300187_new.png
+玉米濃湯（大）
+https://burgerkingimage.azureedge.net/product/300187_new.png
+拿鐵（冰）
+https://burgerkingimage.azureedge.net/product/500x500_%E5%86%B0%E6%8B%BF%E9%90%B5.png
+冰微糖紅茶（中）
+https://burgerkingimage.azureedge.net/product/220017.png
+柳橙綜合果汁（大）
+https://burgerkingimage.azureedge.net/product/230009.png
+綠茶（中）
+https://burgerkingimage.azureedge.net/product/220014.png
+橘子汽水（中）
+https://burgerkingimage.azureedge.net/product/220007.png
+激浪（中）
+https://burgerkingimage.azureedge.net/product/220004.png
+七喜（中）
+https://burgerkingimage.azureedge.net/product/220003.png
+可樂（中）
+https://burgerkingimage.azureedge.net/product/220002%20(2).png
+無糖可樂(中)
+https://burgerkingimage.azureedge.net/product/220002%20(2).png
+
+1
+塑膠袋
+https://burgerkingimage.azureedge.net/product/6001.png
+
+6
+2
+原味國王大雞堡
+https://burgerkingimage.azureedge.net/category/100209_new.png
+辣味國王大雞堡
+https://burgerkingimage.azureedge.net/category/100210_new.png
+
+5
+經典脆雞堡
+https://burgerkingimage.azureedge.net/category/100021.png
+花生培根脆雞堡
+https://burgerkingimage.azureedge.net/category/C40511.png
+美式花生雙層脆雞堡
+https://burgerkingimage.azureedge.net/category/C40204_new.png
+火烤雞腿培根堡
+https://burgerkingimage.azureedge.net/category/C40202_new.png
+勁濃培根烤腿堡
+https://burgerkingimage.azureedge.net/category/C40201_new.png
+
+4
+雙層田園華鱈魚堡
+https://burgerkingimage.azureedge.net/category/C40401.png
+Q彈海老牛肉堡
+https://burgerkingimage.azureedge.net/category/C40303.png
+華鱈魚堡
+https://burgerkingimage.azureedge.net/category/100016.png
+Q彈海老堡
+https://burgerkingimage.azureedge.net/category/C40301_new.png
+
+1
+無麵包雙層脆雞堡
+https://burgerkingimage.azureedge.net/category/100198_new.png
+
+2
+經典脆雞堡+小薯+小飲
+https://burgerkingimage.azureedge.net/product/0011112.png
+花生培根脆雞堡+小薯+小飲
+https://burgerkingimage.azureedge.net/product/0011113.png
+
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片
+✅成功抓到完整圖片

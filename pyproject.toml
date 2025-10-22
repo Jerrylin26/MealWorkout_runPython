@@ -1,0 +1,27 @@
+[project]
+name = "fastfood-cal"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "李仲偉,何宗宇,黃意宏,林皓群"}
+]
+readme = "README.md"
+requires-python = ">=3.9,<3.13"
+dependencies = [
+]
+
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+requests = "^2.32.4"
+bs4 = "^0.0.2"
+lxml = "^6.0.0"
+selenium = "^4.35.0"
+undetected-chromedriver = "^3.5.5"
+setuptools = "^80.9.0"
+python-dateutil = "^2.9.0.post0"
+pandas = "^2.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
