@@ -1,19 +1,16 @@
-[project]
+[tool.poetry]
 name = "fastfood-cal"
 version = "0.1.0"
-description = ""
+description = "Fast food calorie analyzer"
 authors = [
-    {name = "李仲偉,何宗宇,黃意宏,林皓群"}
+    "李仲偉,何宗宇,黃意宏,林皓群"
 ]
 readme = "README.md"
-requires-python = ">=3.9,<3.14"
-dependencies = [
-    "flask (>=3.1.2,<4.0.0)"
-]
-
+package-mode = false
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.14"
+flask = "^3.1.2"
 requests = "^2.32.4"
 bs4 = "^0.0.2"
 lxml = "^6.0.0"
