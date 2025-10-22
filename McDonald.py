@@ -16,6 +16,14 @@ import requests
 import os
 import sys
 import re
+import platform
+
+def get_chrome_path():
+    if platform.system() == "Windows":
+        return r"C:\Program Files\Google\Chrome\Application\chrome.exe"
+    else:
+        # 預設 Render (Linux) 環境
+        return os.environ.get("CHROME_BIN", "/usr/bin/google-chrome")
 
 class McDonald:
 
@@ -33,6 +41,7 @@ class McDonald:
         try:        
             # 能夠通過 Cloudflare
             options = Options()
+            options.binary_location = get_chrome_path() #配合部署路徑選擇
             # options.add_argument("--incognito")  # 無痕模式
             driver = uc.Chrome(version_main=self.version_main,options=options)
             driver.get(f"https://www.mcdonalds.com/tw/zh-tw/sustainability/good-food/nutrition-calculator.html")
