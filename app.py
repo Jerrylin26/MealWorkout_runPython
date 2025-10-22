@@ -17,3 +17,8 @@ def update():
 if __name__ == "__main__":
     # 只有在本地測試時使用
     app.run(host="0.0.0.0", port=10000, debug=True)
+
+
+@app.route("/new", methods=["GET"])
+def home():
+    return jsonify({"message": "Arod"})
