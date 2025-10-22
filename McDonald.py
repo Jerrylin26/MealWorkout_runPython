@@ -44,7 +44,7 @@ class McDonald:
             # 能夠通過 Cloudflare
             options = Options()
             options.binary_location = get_chrome_path() #配合部署路徑選擇
-            options.add_argument("--headless")
+            options.add_argument("--headless=new")
             options.add_argument("--no-sandbox")
             options.add_argument("--disable-dev-shm-usage")
 
