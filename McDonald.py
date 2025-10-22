@@ -23,6 +23,7 @@ def get_chrome_path():
         return r"C:\Program Files\Google\Chrome\Application\chrome.exe"
     else:
         # Render Linux 路徑
+        print("choose linux")
         return "/opt/render/project/.render/chrome/opt/google/chrome/google-chrome"
 
 
@@ -43,9 +44,14 @@ class McDonald:
             # 能夠通過 Cloudflare
             options = Options()
             options.binary_location = get_chrome_path() #配合部署路徑選擇
+            options.add_argument("--headless")
+            options.add_argument("--no-sandbox")
+            options.add_argument("--disable-dev-shm-usage")
+
             # options.add_argument("--incognito")  # 無痕模式
             driver = uc.Chrome(version_main=self.version_main,options=options)
             driver.get(f"https://www.mcdonalds.com/tw/zh-tw/sustainability/good-food/nutrition-calculator.html")
+            print("等待....")
             driver.set_page_load_timeout(15) # 不出來最多等15秒
             wait = WebDriverWait(driver,5)
 
