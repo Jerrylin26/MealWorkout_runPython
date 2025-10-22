@@ -1,0 +1,28 @@
+# 使用官方 Python 3.11 slim
+FROM python:3.11-slim
+
+# 安裝 curl、build-essential (Poetry 需要)
+RUN apt-get update && apt-get install -y curl build-essential && rm -rf /var/lib/apt/lists/*
+
+# 安裝 Poetry
+RUN curl -sSL https://install.python-poetry.org | python3 -
+ENV PATH="/root/.local/bin:$PATH"
+
+# 設定工作目錄
+WORKDIR /app
+
+# 複製 Poetry 設定檔
+COPY pyproject.toml poetry.lock* /app/
+
+# 安裝依賴（不建立虛擬環境）
+RUN poetry config virtualenvs.create false \
+    && poetry install --no-interaction --no-ansi
+
+# 複製專案程式碼
+COPY . .
+
+# 對外暴露 Render 會用的 PORT
+ENV PORT 10000
+
+# 啟動 Flask / FastAPI app
+CMD ["gunicorn", "--bind", "0.0.0.0:$PORT", "app:app"]
