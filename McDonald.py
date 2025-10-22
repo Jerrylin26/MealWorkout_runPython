@@ -163,40 +163,5 @@ class McDonald:
 if __name__ == "__main__":
     b = McDonald()
     b.start_driver()
-    # b.download_img()
-
-    # with open(r'.\info_json\McDonald.json', 'r', encoding='utf-8') as f:
-    #     data = json.load(f)
-
-
-
-    # for d in data:
-    #     if d['類別'] == "超值全餐":
-    #         d['類別'] = "主餐"
-    #     elif d['類別'] == "極選系列":
-    #         d['類別'] = "主餐"
-    #     elif d['類別'] == "McCafé®":
-    #         d['類別'] = "冷飲"
-    #     elif d['類別'] == "飲料":
-    #         d['類別'] = "冷飲"
-        
-
-    # with open(r'.\info_json\McDonald.json', 'w', encoding='utf-8') as f:
-    #     json.dump(data,f,indent=4,ensure_ascii=False)
-
-    # with open(r'.\info_json\McDonald.json', 'r', encoding='utf-8') as f:
-    #     data = json.load(f)
-
-
-
-    # for d in data:
-    #     d['熱量'] == d['熱量'].replace(",","").strip()
-
-
-
-    # with open(r'.\info_json\McDonald.json', 'w', encoding='utf-8') as f:
-    #     json.dump(data,f,indent=4,ensure_ascii=False)
-
-
-
+    
 

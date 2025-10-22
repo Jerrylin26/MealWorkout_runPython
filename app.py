@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, request
+from McDonald import McDonald
 
 app = Flask(__name__)
 
@@ -19,6 +20,20 @@ if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000, debug=True)
 
 
-@app.route("/new", methods=["GET"])
-def home():
-    return jsonify({"message": "Arod"})
+@app.route("/McDonald", methods=["GET"])
+def run_mcdonald():
+    try:
+        # ✅ 建立物件並執行爬蟲
+        m = McDonald()
+        m.start_driver()  # 執行爬蟲主程式
+
+        return jsonify({
+            "status": "ok",
+            "message": "McDonald 爬蟲已執行完成，已生成 McDonald.json"
+        })
+
+    except Exception as e:
+        return jsonify({
+            "status": "error",
+            "message": str(e)
+        })
