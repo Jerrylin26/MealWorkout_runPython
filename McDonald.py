@@ -19,6 +19,7 @@ import sys
 import re
 import platform
 
+
 def get_chrome_path():
     if platform.system() == "Windows":
         return r"C:\Program Files\Google\Chrome\Application\chrome.exe"
