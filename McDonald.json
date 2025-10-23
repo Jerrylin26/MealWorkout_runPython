@@ -1,0 +1,656 @@
+[
+    {
+        "種類":"早餐",
+        "品項":"豬肉滿福堡加蛋",
+        "熱量":"389.04 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/sausage-mcmuffin-with-egg_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"早餐",
+        "品項":"豬肉滿福堡",
+        "熱量":"327.86 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/sausage-mcmuffin_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"早餐",
+        "品項":"無敵豬肉滿福堡加蛋",
+        "熱量":"512.79 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/mega-mcmuffin_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"早餐",
+        "品項":"滿福堡®",
+        "熱量":"286.37 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/egg-mcmuffin_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"早餐",
+        "品項":"青蔬滿福堡",
+        "熱量":"288.07 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/muffin-with-vegetables_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"早餐",
+        "品項":"豬肉蛋堡",
+        "熱量":"410.26 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/egg-burger-with-sausage_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"早餐",
+        "品項":"火腿蛋堡",
+        "熱量":"302.43 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/egg-burger-with-canadian-bacon_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"早餐",
+        "品項":"吉事蛋堡",
+        "熱量":"281.34 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/egg-burger_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"早餐",
+        "品項":"蕈菇嫩蛋焙果堡",
+        "熱量":"478.45 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/%E6%97%A9%E9%A4%90%E8%95%88%E8%8F%87%E5%AB%A9%E8%9B%8B%E7%84%99%E6%9E%9C%E5%A0%A11206:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"早餐",
+        "品項":"番茄嫩蛋焙果堡",
+        "熱量":"452.13 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/bagel-burger-with-cheese_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"早餐",
+        "品項":"現烤焙果",
+        "熱量":"248.89 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/plain-bagel_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"早餐",
+        "品項":"鷄塊鬆餅大早餐",
+        "熱量":"701.32 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/grand-breakfast_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"早餐",
+        "品項":"豬肉鬆餅",
+        "熱量":"439 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/1220%E8%B1%AC%E8%82%89%E9%AC%86%E9%A4%85832x822_3:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"早餐",
+        "品項":"鬆餅(3片)",
+        "熱量":"319 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/1220%E9%AC%86%E9%A4%85832x822_2:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"早餐",
+        "品項":"麥香魚®",
+        "熱量":"342.92 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/%E6%97%A9%E9%A4%90%E9%BA%A5%E9%A6%99%E9%AD%9A1206:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"早餐",
+        "品項":"麥香鷄®",
+        "熱量":"393.02 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/mcchicken_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"早餐",
+        "品項":"麥克鷄塊®(6塊)",
+        "熱量":"266 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/%E6%97%A9%E9%A4%90%E5%85%AD%E5%A1%8A%E9%BA%A5%E5%85%8B%E9%B7%84%E5%A1%8A1206:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"早餐",
+        "品項":"麥克鷄塊®(10塊)",
+        "熱量":"444 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/%E6%97%A9%E9%A4%90%E5%8D%81%E5%A1%8A%E9%BA%A5%E5%85%8B%E9%B7%84%E5%A1%8A1206:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"早餐",
+        "品項":"原味可頌",
+        "熱量":"255.99 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/croissant_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"早餐",
+        "品項":"巧克力榛果可頌",
+        "熱量":"264.12 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/croissant-chocolate_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"早餐",
+        "品項":"肉桂捲",
+        "熱量":"350 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/cinnamon-swirl_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"大麥克®",
+        "熱量":"602 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/big-mac_832x822_2:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"雙層牛肉吉事堡",
+        "熱量":"475 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/double-cheese-burger_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"四盎司牛肉堡",
+        "熱量":"541.29 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/832x822_%E5%9B%9B%E7%9B%8E%E5%8F%B8%E7%89%9B%E8%82%89%E5%A0%A1-1:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"雙層四盎司牛肉堡",
+        "熱量":"779.94 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/832x822_%E9%9B%99%E5%B1%A4%E5%9B%9B%E7%9B%8E%E5%8F%B8%E7%89%9B%E8%82%89%E5%A0%A1-1:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"麥香鷄®",
+        "熱量":"393.02 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/mcchicken_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"雙層麥香鷄",
+        "熱量":"528.62 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/%E9%9B%99%E5%B1%A4%E9%BA%A5%E9%A6%99%E9%B7%84:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"嫩煎鷄腿堡",
+        "熱量":"391.17 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/grilled-bbq-chicken-burger_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"麥克鷄塊®(6塊)",
+        "熱量":"266.42 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/chicken-mcnuggets-6-pieces_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"麥克鷄塊®(10塊)",
+        "熱量":"444 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/chicken-mcnuggets-10-pieces_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"勁辣鷄腿堡",
+        "熱量":"536.52 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/spicy-chicken-filet-burger_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"原味麥脆鷄腿(2塊)",
+        "熱量":"699.81 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/832x822_%E5%8E%9F%E5%91%B3%E9%BA%A5%E8%84%86%E9%B7%84%E8%85%BF2pc2023:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"辣味麥脆鷄腿(2塊)",
+        "熱量":"714.4 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/832x822_%E8%BE%A3%E5%91%B3%E9%BA%A5%E8%84%86%E9%B7%84%E8%85%BF2pc2023:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"麥香魚®",
+        "熱量":"337.89 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/filet-o-fish_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"BLT 安格斯牛肉堡",
+        "熱量":"543.46 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/1220signature832x822_1:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"BLT 嫩煎鷄腿堡",
+        "熱量":"456.73 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/1220signature8832x822_3:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"帕瑪森安格斯牛肉堡",
+        "熱量":"560.19 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/832x822_%E5%B8%95%E7%91%AA%E6%A3%AE%E5%AE%89%E6%A0%BC%E6%96%AF%E7%89%9B%E8%82%89%E5%A0%A1-1:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"帕瑪森主廚鷄腿堡",
+        "熱量":"715.67 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/832x822_%E5%B8%95%E7%91%AA%E6%A3%AE%E4%B8%BB%E5%BB%9A%E9%B7%84%E8%85%BF%E5%A0%A1-1:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"蕈菇安格斯牛肉堡",
+        "熱量":"592.74 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/1220signature8832x822_4:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"蕈菇主廚鷄腿堡",
+        "熱量":"743.74 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/832x822_%E8%95%88%E8%8F%87%E4%B8%BB%E5%BB%9A%E9%B7%84%E8%85%BF%E5%A0%A1-1:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"藜麥沙拉",
+        "熱量":"96.2 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/%E8%97%9C%E9%BA%A5%E6%B2%99%E6%8B%89_75dpi_IT:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"藜麥鱈魚沙拉",
+        "熱量":"218.3 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/%E8%97%9C%E9%BA%A5%E9%B1%88%E9%AD%9A%E6%B2%99%E6%8B%89_75dpi_IT:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"藜麥烤鷄沙拉",
+        "熱量":"264.24 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/%E8%97%9C%E9%BA%A5%E7%83%A4%E9%B7%84_75dpi_non_sharpen_IT:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"藜麥辣脆鷄沙拉",
+        "熱量":"376.95 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/%E8%97%9C%E9%BA%A5%E8%BE%A3%E8%84%86%E9%B7%84%E6%B2%99%E6%8B%89_75dpi_IT:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"BLT 安格斯牛肉堡",
+        "熱量":"543.46 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/1220signature832x822_1:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"BLT 嫩煎鷄腿堡",
+        "熱量":"456.73 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/1220signature8832x822_3:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"帕瑪森安格斯牛肉堡",
+        "熱量":"560.19 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/832x822_%E5%B8%95%E7%91%AA%E6%A3%AE%E5%AE%89%E6%A0%BC%E6%96%AF%E7%89%9B%E8%82%89%E5%A0%A1-1:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"帕瑪森主廚鷄腿堡",
+        "熱量":"715.67 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/832x822_%E5%B8%95%E7%91%AA%E6%A3%AE%E4%B8%BB%E5%BB%9A%E9%B7%84%E8%85%BF%E5%A0%A1-1:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"蕈菇安格斯牛肉堡",
+        "熱量":"592.74 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/1220signature8832x822_4:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"蕈菇主廚鷄腿堡",
+        "熱量":"743.74 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/832x822_%E8%95%88%E8%8F%87%E4%B8%BB%E5%BB%9A%E9%B7%84%E8%85%BF%E5%A0%A1-1:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"藜麥沙拉",
+        "熱量":"96.2 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/%E8%97%9C%E9%BA%A5%E6%B2%99%E6%8B%89_75dpi_IT:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"藜麥鱈魚沙拉",
+        "熱量":"218.3 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/%E8%97%9C%E9%BA%A5%E9%B1%88%E9%AD%9A%E6%B2%99%E6%8B%89_75dpi_IT:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"藜麥烤鷄沙拉",
+        "熱量":"264.24 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/%E8%97%9C%E9%BA%A5%E7%83%A4%E9%B7%84_75dpi_non_sharpen_IT:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"主餐",
+        "品項":"藜麥辣脆鷄沙拉",
+        "熱量":"376.95 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/%E8%97%9C%E9%BA%A5%E8%BE%A3%E8%84%86%E9%B7%84%E6%B2%99%E6%8B%89_75dpi_IT:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"熱飲",
+        "品項":"金選美式咖啡(熱)",
+        "熱量":"15.01 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/0415%E9%87%91%E9%81%B8%E5%92%96%E5%95%A1_%E9%87%91%E9%81%B8%E7%BE%8E%E5%BC%8F%E7%86%B1:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"冷飲",
+        "品項":"金選美式咖啡(冰)",
+        "熱量":"20.16 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/0415%E9%87%91%E9%81%B8%E5%92%96%E5%95%A1_%E9%87%91%E9%81%B8%E7%BE%8E%E5%BC%8F%E5%86%B0:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"熱飲",
+        "品項":"金選那堤(熱)",
+        "熱量":"123.52 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/0415%E9%87%91%E9%81%B8%E5%92%96%E5%95%A1_%E9%87%91%E9%81%B8%E9%82%A3%E5%A0%A4%E7%86%B1:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"冷飲",
+        "品項":"金選那堤(冰)",
+        "熱量":"117.48 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/0415%E9%87%91%E9%81%B8%E5%92%96%E5%95%A1_%E9%87%91%E9%81%B8%E9%82%A3%E5%A0%A4%E5%86%B0:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"熱飲",
+        "品項":"義式濃縮咖啡(熱)",
+        "熱量":"6.26 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/0524%E7%BE%A9%E5%BC%8F%E6%BF%83%E7%B8%AE%E5%92%96%E5%95%A1:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"熱飲",
+        "品項":"經典美式咖啡(熱)",
+        "熱量":"15.01 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/0524%E7%B6%93%E5%85%B8%E7%BE%8E%E5%BC%8F%E5%92%96%E5%95%A1:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"冷飲",
+        "品項":"經典美式咖啡(冰)",
+        "熱量":"20.16 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/0524%E5%86%B0%E7%B6%93%E5%85%B8%E7%BE%8E%E5%BC%8F%E5%92%96%E5%95%A1:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"熱飲",
+        "品項":"經典那堤(熱)",
+        "熱量":"123.48 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/0524%E7%B6%93%E5%85%B8%E9%82%A3%E5%A0%A4:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"冷飲",
+        "品項":"經典那堤(冰)",
+        "熱量":"117.45 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/0524%E5%86%B0%E7%B6%93%E5%85%B8%E9%82%A3%E5%A0%A4:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"熱飲",
+        "品項":"經典卡布奇諾(熱) ",
+        "熱量":"148.25 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/%E5%88%A5%E5%85%B7%E6%BB%8B%E5%91%B3%E9%A0%81_%E7%B6%93%E5%85%B8%E5%8D%A1%E5%B8%83%E5%A5%87%E8%AB%BE(%E7%86%B1)_832x8222023:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"冷飲",
+        "品項":"經典卡布奇諾(冰)",
+        "熱量":"110.22 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/0524%E5%86%B0%E7%B6%93%E5%85%B8%E5%8D%A1%E5%B8%83%E5%A5%87%E8%AB%BE:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"冷飲",
+        "品項":"蜂蜜紅茶(冰)",
+        "熱量":"138.39 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/860x822_%E8%9C%82%E8%9C%9C%E7%B4%85%E8%8C%B6%E5%86%B0_0321n3:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"熱飲",
+        "品項":"蜂蜜奶茶(熱)",
+        "熱量":"176.99 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/honey-milk-tea-hot_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"冷飲",
+        "品項":"蜂蜜奶茶(冰)",
+        "熱量":"212.46 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/860x822_%E8%9C%82%E8%9C%9C%E5%A5%B6%E8%8C%B6%E5%86%B0_0321n3:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"冷飲",
+        "品項":"焦糖奶茶(冰)",
+        "熱量":"156.53 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/832x822_%E5%88%A5%E5%85%B7%E6%BB%8B%E5%91%B3%E7%94%A2%E5%93%81%E5%9C%96_%E7%84%A6%E7%B3%96%E5%A5%B6%E8%8C%B6%E5%86%B0n1:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"冷飲",
+        "品項":"原味可頌",
+        "熱量":"255.99 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/croissant_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"冷飲",
+        "品項":"巧克力榛果可頌",
+        "熱量":"264.12 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/croissant-chocolate_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"冷飲",
+        "品項":"肉桂捲",
+        "熱量":"350 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/cinnamon-swirl_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"熱飲",
+        "品項":"紅茶 (熱)",
+        "熱量":"0 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/832x822_1-0309:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"熱飲",
+        "品項":"奶茶 (熱)",
+        "熱量":"74.83 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/832x822_2:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"冷飲",
+        "品項":"奶茶(冰)",
+        "熱量":"212.75 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/iced-milk-tea_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"冷飲",
+        "品項":"台灣鮮榨柳丁汁(瓶裝)",
+        "熱量":"118.72 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/taiwan-fresh-orange-juice_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"冷飲",
+        "品項":"鮮乳(盒裝)",
+        "熱量":"145.42 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/milk_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"冷飲",
+        "品項":"Evian 礦泉水",
+        "熱量":"0 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/0602Evian%E7%A4%A6%E6%B3%89%E6%B0%B4832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"冷飲",
+        "品項":"可口可樂",
+        "熱量":"157.94 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/%E5%8F%AF%E5%8F%A3%E5%8F%AF%E6%A8%82_832x822_1029:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"冷飲",
+        "品項":"可口可樂zero",
+        "熱量":"0 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/planp%E9%9B%B6%E5%8D%A1%E5%8F%AF%E6%A8%82_832x822n:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"冷飲",
+        "品項":"雪碧",
+        "熱量":"128.24 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/832x822_%E9%9B%AA%E7%A2%A72023:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"冷飲",
+        "品項":"檸檬風味紅茶 (冰)",
+        "熱量":"122.99 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/iced-black-tea-lemon-flavor_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"冷飲",
+        "品項":"無糖紅茶 (冰)",
+        "熱量":"0 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/iced-black-tea-sugar-free_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"冷飲",
+        "品項":"無糖綠茶 (冰)",
+        "熱量":"0 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/iced-green-tea-sugar-free_860x822_2:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"點心",
+        "品項":"麥克雙牛堡",
+        "熱量":"429 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/832x822_3:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"點心",
+        "品項":"漢堡",
+        "熱量":"276 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/hamburger_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"點心",
+        "品項":"吉事漢堡",
+        "熱量":"325 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/cheese-burger_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"點心",
+        "品項":"薯條",
+        "熱量":"240.94 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/french-fries-small_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"點心",
+        "品項":"薯餅",
+        "熱量":"168.49 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/hash-browns_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"點心",
+        "品項":"原味麥脆鷄腿(棒腿)",
+        "熱量":"275.09 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/chicken-mccrispy-drumstick-1-pieces-0321:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"點心",
+        "品項":"原味麥脆鷄腿(大腿)",
+        "熱量":"424.73 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/1220%E5%8E%9F%E5%91%B3%E5%A4%A7%E8%85%BF832x822_1:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"點心",
+        "品項":"原味麥脆鷄腿(2塊)",
+        "熱量":"699.81 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/832x822_%E5%8E%9F%E5%91%B3%E9%BA%A5%E8%84%86%E9%B7%84%E8%85%BF2pc2023:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"點心",
+        "品項":"辣味麥脆鷄腿(棒腿)",
+        "熱量":"267.3 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/spicy-chicken-mccrispy-drumstick-1-pieces-0321:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"點心",
+        "品項":"辣味麥脆鷄腿(大腿)",
+        "熱量":"447.1 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/%E8%BE%A3%E5%91%B3%E9%BA%A5%E8%84%86%E9%B7%84%E8%85%BF%E5%A4%A7%E8%85%BF_%E7%84%A1%E5%BD%B1_75dpi:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"點心",
+        "品項":"辣味麥脆鷄腿(2塊)",
+        "熱量":"714.4 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/832x822_%E8%BE%A3%E5%91%B3%E9%BA%A5%E8%84%86%E9%B7%84%E8%85%BF2pc2023:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"點心",
+        "品項":"勁辣香鷄翅(2塊)",
+        "熱量":"249.53 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/spicy-chicken-wing-2-pieces_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"點心",
+        "品項":"勁辣香鷄翅(6塊)",
+        "熱量":"748.6 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/spicy-chicken-wing-6-pieces_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"點心",
+        "品項":"蘋果派",
+        "熱量":"216.84 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/apple-pie_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"點心",
+        "品項":"玉米杯",
+        "熱量":"93.09 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/planp%E7%8E%89%E7%B1%B3%E6%9D%AF_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"點心",
+        "品項":"四季沙拉",
+        "熱量":"19.71 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/planp%E5%9B%9B%E5%AD%A3%E6%B2%99%E6%8B%89_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"點心",
+        "品項":"水果袋",
+        "熱量":"39.48 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/sliced-apple_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"點心",
+        "品項":"玉米湯",
+        "熱量":"93 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/corn-soup-small_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"點心",
+        "品項":"蛋捲冰淇淋",
+        "熱量":"145 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/ice-cream-cone_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"點心",
+        "品項":"大蛋捲冰淇淋",
+        "熱量":"202 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/ice-cream-cone-large_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"點心",
+        "品項":"OREO冰炫風®",
+        "熱量":"311.72 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/mcflurry_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"點心",
+        "品項":"雙倍OREO冰炫風",
+        "熱量":"381.72 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/1220doubleoreo832822-0321:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"點心",
+        "品項":"麥克鷄塊®(4塊)",
+        "熱量":"178 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/chicken-mcnuggets-4-pieces_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"點心",
+        "品項":"麥克鷄塊®(6塊)",
+        "熱量":"266.42 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/chicken-mcnuggets-6-pieces_832x822:nutrition-calculator-tile?resmode=sharp2"
+    },
+    {
+        "種類":"點心",
+        "品項":"麥克鷄塊®(10塊)",
+        "熱量":"444 Kcal",
+        "圖片":"https://s7d1.scene7.com/is/image/mcdonalds/chicken-mcnuggets-10-pieces_832x822:nutrition-calculator-tile?resmode=sharp2"
+    }
+]
