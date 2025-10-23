@@ -56,7 +56,7 @@ class McDonald:
             options.add_argument("--remote-debugging-port=9222")
 
             # 若使用 undetected_chromedriver，建議加入 driver_executable_path
-            driver = uc.Chrome(
+            driver = webdriver.Chrome(
                 version_main=self.version_main,
                 options=options,
                 headless=True,
