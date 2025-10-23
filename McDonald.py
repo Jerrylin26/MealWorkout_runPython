@@ -65,7 +65,7 @@ class McDonald:
 
             driver.set_page_load_timeout(3)
             driver.get("https://www.mcdonalds.com/tw/zh-tw/sustainability/good-food/nutrition-calculator.html")
-            wait = WebDriverWait(driver, 10)
+            wait = WebDriverWait(driver, 5)
 
         except Exception as e:
             print(f'❌瀏覽出問題: {e}')
