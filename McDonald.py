@@ -38,29 +38,38 @@ class McDonald:
 
 
     def start_driver(self):
-        """啟動瀏覽器"""
         print("--------------- 啟動瀏覽器 --------------")
-        try:        
-            # 能夠通過 Cloudflare
+        try:
             options = Options()
-            options.binary_location = get_chrome_path() #配合部署路徑選擇
-            options.add_argument("--headless=new")
+            options.binary_location = get_chrome_path()
+            options.add_argument("--headless=new")  # 一定要新版本 headless 模式
             options.add_argument("--no-sandbox")
             options.add_argument("--disable-dev-shm-usage")
+            options.add_argument("--disable-gpu")
+            options.add_argument("--disable-software-rasterizer")
+            options.add_argument("--disable-extensions")
+            options.add_argument("--disable-background-networking")
+            options.add_argument("--disable-default-apps")
+            options.add_argument("--disable-sync")
+            options.add_argument("--remote-debugging-port=9222")
 
-            # options.add_argument("--incognito")  # 無痕模式
-            driver = uc.Chrome(version_main=self.version_main,options=options)
-            driver.get(f"https://www.mcdonalds.com/tw/zh-tw/sustainability/good-food/nutrition-calculator.html")
-            print("等待....")
-            driver.set_page_load_timeout(15) # 不出來最多等15秒
-            wait = WebDriverWait(driver,5)
+            # 若使用 undetected_chromedriver，建議加入 driver_executable_path
+            driver = uc.Chrome(
+                version_main=self.version_main,
+                options=options,
+                headless=True,
+                use_subprocess=True  # 強制使用 subprocess 模式，避免 block
+            )
+
+            driver.set_page_load_timeout(15)
+            driver.get("https://www.mcdonalds.com/tw/zh-tw/sustainability/good-food/nutrition-calculator.html")
+            wait = WebDriverWait(driver, 10)
 
         except Exception as e:
             print(f'❌瀏覽出問題: {e}')
+            return  # 若 Chrome 啟動失敗，不繼續執行
 
-        
-
-        print("--------------- 登入configuration --------------")
+        print("--------------- 登入 configuration --------------")
 
         data = []
         contents_count = len(driver.find_elements(By.CSS_SELECTOR, 'li.cmp-product-card'))
