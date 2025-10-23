@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 from selenium.webdriver.common.by import By
 import time
 import undetected_chromedriver as uc
+from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from urllib3.exceptions import NewConnectionError
@@ -61,7 +62,7 @@ class McDonald:
                 use_subprocess=True  # 強制使用 subprocess 模式，避免 block
             )
 
-            driver.set_page_load_timeout(15)
+            driver.set_page_load_timeout(3)
             driver.get("https://www.mcdonalds.com/tw/zh-tw/sustainability/good-food/nutrition-calculator.html")
             wait = WebDriverWait(driver, 10)
 
