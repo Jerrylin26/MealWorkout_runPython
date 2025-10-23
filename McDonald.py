@@ -55,13 +55,8 @@ class McDonald:
             options.add_argument("--disable-sync")
             options.add_argument("--remote-debugging-port=9222")
 
-            # 若使用 undetected_chromedriver，建議加入 driver_executable_path
-            driver = webdriver.Chrome(
-                version_main=self.version_main,
-                options=options,
-                headless=True,
-                use_subprocess=True  # 強制使用 subprocess 模式，避免 block
-            )
+
+            driver = webdriver.Chrome( options=options)
 
             driver.set_page_load_timeout(3)
             driver.get("https://www.mcdonalds.com/tw/zh-tw/sustainability/good-food/nutrition-calculator.html")
