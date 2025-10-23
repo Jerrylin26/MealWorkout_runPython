@@ -50,6 +50,7 @@ class McDonald:
             options.add_argument("--disable-gpu")
             options.add_argument("--disable-software-rasterizer")
             options.add_argument("--disable-extensions")
+            options.add_argument("--single-process")   
             options.add_argument("--disable-background-networking")
             options.add_argument("--disable-default-apps")
             options.add_argument("--disable-sync")
@@ -58,7 +59,7 @@ class McDonald:
 
             driver = webdriver.Chrome( options=options)
 
-            driver.set_page_load_timeout(3)
+            driver.set_page_load_timeout(8)
             driver.get("https://www.mcdonalds.com/tw/zh-tw/sustainability/good-food/nutrition-calculator.html")
             wait = WebDriverWait(driver, 5)
 
