@@ -126,14 +126,21 @@ class McDonald:
             data = f.read()
         data = data.replace('\\/','/')
 
+        # 寫入
+        with open('McDonald.json','w',encoding='utf-8') as f:
+            f.write(data)
+
+
+        # 修改column名稱
         with open('McDonald.json','r',encoding='utf-8') as f:
             data = json.load(f)
 
         for row in data:
             row['種類'] = row['類別']
         
-        with open('McDonald.json','w',encoding='utf-8') as f:
-            f.write(data)
+        # 寫入
+        with open('McDonald.json', 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
                 
 
 if __name__ == "__main__":
