@@ -125,62 +125,16 @@ class McDonald:
         with open('McDonald.json','r',encoding='utf-8') as f:
             data = f.read()
         data = data.replace('\\/','/')
+
+        with open('McDonald.json','r',encoding='utf-8') as f:
+            data = json.load(f)
+
+        for row in data:
+            row['種類'] = row['類別']
         
         with open('McDonald.json','w',encoding='utf-8') as f:
             f.write(data)
                 
-        
-    def download_img(self):
-
-        # 設定 logger
-        class Logger:
-            def __init__(self, filename="output.log"):
-                self.terminal = sys.stdout   # 原本的 console
-                self.log = open(filename, "a", encoding="utf-8")
-
-            def write(self, message):
-                self.terminal.write(message)   # 照樣印到 console
-                self.log.write(message)        # 同時寫進 log
-                self.log.flush()               # 立即寫入檔案
-
-            def flush(self):
-                pass  # for Python buffer 需求
-        
-        # 把 stdout 和 stderr 都導向 Logger
-        sys.stdout = Logger("./McDonald.log")
-        sys.stderr = sys.stdout
-
-
-        try:
-            path = f"./McDonald_pic"
-            os.makedirs(path, mode=0o777)
-        
-        except Exception as e:
-            print(f'❌建立資料夾出問題: {e}')
-
-        try:
-
-            df = pd.read_json(r".\info_json\McDonald.json")
-
-            for idx,info in df.iterrows():
-                title = info['品項']
-                imgs = info["圖片"]
-                              
-                try:
-                    
-                    thumbnail = requests.get(imgs)
-                    with open(f'{path}/{title}.png', 'wb') as f:
-                        f.write(thumbnail.content)
-
-                except Exception as e:
-                    print(f'❌下載單張圖片出問題: {e}')
-
-                print("✅成功抓到完整圖片")
-                
-            
-        except Exception as e:
-            print(f'❌下載圖片出問題: {e}')
-    
 
 if __name__ == "__main__":
     b = McDonald()
