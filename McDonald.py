@@ -135,8 +135,9 @@ class McDonald:
         with open('McDonald.json','r',encoding='utf-8') as f:
             data = json.load(f)
 
-        for row in data:
-            row['種類'] = row['類別']
+        for item in data:
+            if "種類" in item:
+                item["類別"] = item.pop("種類")  # 取出「種類」的值，改存成「類別」
         
         # 寫入
         with open('McDonald.json', 'w', encoding='utf-8') as f:
